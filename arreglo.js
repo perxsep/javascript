@@ -8,7 +8,7 @@ function muestraListaDeCompras() {
 //variables:produce-dato:["manzanas", "naranjas"]
 //variables:frozen-dato:["brócoli", "helado"]
 //fragmento nº3:
-var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
+*/var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
 movieLibrary.push("Zoro");
 movieLibrary[1] = "Beetlejuice";
 console.log(movieLibrary);
