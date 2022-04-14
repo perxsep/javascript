@@ -3,21 +3,21 @@ function hello() {
 }
 hello();
 console.log('Dojo');
-//hello,dojo
+//hello
 function hello() {
     console.log('hello');
     return 15;
 }
 var result = hello();
 console.log('result is', result);
-//hello,result is 15
+//var:hello, dato:result is 15
 function numPlus(num) {
     console.log('num is', num);
     return num+15;
 }
 var result = numPlus(3);
 console.log('result is', result);
-//num is 3,result is 18
+//,var:result is 18
 var num = 15;
 console.log(num);
 function logAndReturn(num2){
@@ -27,7 +27,7 @@ function logAndReturn(num2){
 var result = logAndReturn(10);
 console.log(result);
 console.log(num);
-//15,10,10,15
+//var result: dato:15,10,10,15
 var num = 15;
 console.log(num);
 function timesTwo(num2){
@@ -37,7 +37,7 @@ function timesTwo(num2){
 var result = timesTwo(10);
 console.log(result);
 console.log(num);
-//15,10,10,15
+//var result: dato:15,10,10,15
 function timesTwoAgain(num) {
     console.log('num is', num);
     var y = num*2;
@@ -66,7 +66,7 @@ function sumNums(num1, num2) {
 }
 var result = sumNums(2,3) + sumNums(3,5);
 console.log('result is', result);
-//sum is 5,sum is 8,result is 13
+// var: dato:sum is 5,sum is 8,result is 13
 function sumNums(num1, num2) {
     var sum = num1 + num2;
     console.log('sum is', sum);
@@ -74,5 +74,4 @@ function sumNums(num1, num2) {
 }
 var result = sumNums(2,3) + sumNums(3,5);
 console.log('result is', result);
-//
-sum is 5,sum is 8,result is 13
+//var result: dato:  sum is 5,sum is 8,result is 13
